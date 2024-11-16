@@ -9,6 +9,7 @@ export default function Dice() {
       {/* Light effect for the previous block */}
       <div className="absolute -top-96 left-40 h-[600px] w-full sm:w-[900px] -translate-x-1/2 transform rounded-full bg-purple-600/20 blur-[100px]" />
       
+      
       <div className="container mx-auto px-4 py-16">
         {/* Gaming Card Section */}
         <div className="mb-24 overflow-hidden rounded-3xl bg-gradient-to-br from-purple-900/20 to-black/20 backdrop-blur-sm">
@@ -18,7 +19,7 @@ export default function Dice() {
               <input type="image"
                 src={`${dice}`}
                 alt="Ace card and dice"
-                className="transform transition-transform hover:scale-105 h-[400px] w-[400px]"
+                className="transform transition-transform hover:scale-105 h-[300px] w-[300px] sm:h-[400px] sm:w-[400px]"
               />
             </div>
 
