@@ -40,9 +40,9 @@ export default function Component() {
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl sm:text-5xl font-bold mb-6">
-            STEPS TO INSTALL
-          </h2>
+        <h2 className="text-3xl sm:text-4xl font-bold text-center text-white mb-8">
+          STEPS <span className="text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-500 to-cyan-500">TO INSTALL</span>
+        </h2>
           <p className="text-xl text-gray-400 mb-8">
             Click here to download now
           </p>
