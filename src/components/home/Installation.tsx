@@ -46,7 +46,7 @@ export default function Component() {
           <p className="text-xl text-gray-400 mb-8">
             Click here to download now
           </p>
-          <div className="flex justify-center gap-4">
+          <div className="flex justify-center flex-col sm:flex-row gap-4">
             <Button 
               className="bg-fuchsia-600 hover:bg-fuchsia-700 text-white px-8 py-6 rounded-full text-lg font-bold"
             >

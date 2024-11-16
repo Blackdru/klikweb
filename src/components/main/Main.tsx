@@ -3,6 +3,7 @@ import Dice from "../home/Dice";
 import Games from "../home/Games";
 import Home from "../home/Home";
 import Installation from "../home/Installation";
+// import Reviews from "../home/Reviews";
 
 
 
@@ -14,6 +15,7 @@ export default function Main() {
         <Dice/>
         <Games/>
         <Installation/>
+        {/* <Reviews/> */}
       </main>
 
   )
