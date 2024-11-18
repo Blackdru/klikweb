@@ -1,13 +1,13 @@
 'use client'
 
 import { Button } from "@/components/ui/button"
-import install1 from "@/assets/install1.png";
-import install2 from "@/assets/install2.png";
-import install3 from "@/assets/install3.png";
-import install4 from "@/assets/install4.png";
+import install1 from "@/assets/install1.svg";
+import install2 from "@/assets/install2.svg";
+import install3 from "@/assets/install3.svg";
+import install4 from "@/assets/install4.svg";
 
 
-export default function Component() {
+export default function Installation() {
   const steps = [
     {
       number: 1,

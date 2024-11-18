@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Button } from "../ui/button";
-import dice from '@/assets/dice.png'
+import dice from '@/assets/dice.svg'
 
 export default function Dice() {
     const [isHovered, setIsHovered] = useState(false)

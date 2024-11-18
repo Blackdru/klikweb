@@ -3,9 +3,9 @@
 import React, { useEffect, useState } from 'react'
 import { Bot, CreditCard, Users2, Lock, Flag, LucideIcon } from 'lucide-react'
 import { Button } from "@/components/ui/button"
-import ludo from '@/assets/ludo.png'
-import cricket from '@/assets/cricket.png'
-import rummy from '@/assets/rummy.png'
+import ludo from '@/assets/ludo.svg'
+import cricket from '@/assets/cricket.svg'
+import rummy from '@/assets/rummy.svg'
 
 interface Game {
   image: string;

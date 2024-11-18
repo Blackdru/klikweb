@@ -1,6 +1,6 @@
 import Cards from "../home/Cards";
 import Dice from "../home/Dice";
-import FAQ from "../home/FAQ";
+import Faq from "../home/FAQ";
 import Footer from "../home/Footer";
 import Games from "../home/Games";
 import Home from "../home/Home";
@@ -18,7 +18,7 @@ export default function Main() {
         <Games/>
         <Installation/>
         <Reviews/>
-        <FAQ/>
+        <Faq/>
         <Footer/>
       </main>
 

@@ -2,6 +2,8 @@
 
 import { useState } from 'react'
 import { Plus, Minus, Star } from 'lucide-react'
+import { FaAndroid, FaApple } from "react-icons/fa";
+import { Button } from '../ui/button'
 
 export default function FAQ() {
   const [openQuestion, setOpenQuestion] = useState<number | null>(0)
@@ -144,13 +146,16 @@ export default function FAQ() {
             <br />
             new rewards
           </h2>
-          <button 
-            className="px-8 py-2 rounded-full text-sm font-medium text-white 
-                     bg-white/20 hover:bg-white/30 transition-all duration-300
-                     backdrop-blur-sm"
-          >
-            Get started
-          </button>
+          <div className="flex flex-wrap justify-center gap-4">
+              <Button className="bg-gradient-to-r from-blue-400 to-purple-600 text-white font-bold py-6 px-8 rounded-full transition-transform duration-300 ease-in-out hover:scale-105 hover:opacity-90">
+                <FaApple className="mr-2 h-5 w-5" />
+                DOWNLOAD
+              </Button>
+              <Button variant="outline" className="bg-gray-800 text-purple-600 font-bold py-6 px-8 rounded-full border-purple-600 transition-all duration-300 ease-in-out hover:scale-105 hover:bg-purple-400 hover:text-white hover:border-purple-400">
+                <FaAndroid className="mr-2 h-5 w-5" />
+                DOWNLOAD
+              </Button>
+            </div>
         </div>
       
     </div>
