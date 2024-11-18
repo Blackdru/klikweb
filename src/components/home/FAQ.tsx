@@ -49,7 +49,7 @@ export default function FAQ() {
           <h1 className="text-4xl font-bold mb-4">
             Frequently Asked
             <br />
-            Question
+            Questions
           </h1>
           <p className="text-gray-400">Wanna Ask Something?</p>
         </div>
