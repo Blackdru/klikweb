@@ -9,7 +9,7 @@ export default function FAQ() {
   const faqs = [
     {
       question: "Is klik games is a safe and secure app?",
-      answer: "Yes, Klik Games is a safe and secure app. We use state-of-the-art encryption and security protocols to protect user data and transactions. Our platform is regularly audited by independent security firms to ensure the highest levels of safety and integrity for our users."
+      answer: "Yes, Klik Games is a safe and secure app. We use state-of-the-art encryption and security protocols to protect user data and transactions."
     },
     {
       question: "Can I earn real cash from this app?",

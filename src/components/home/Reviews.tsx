@@ -11,14 +11,14 @@ const reviews = [
   {
     id: 1,
     rating: 5,
-    text: "One of the standout features of this gaming website is its extensive library of game guides and tutorials. It has helped me level up my skills, conquer challenging quests, and discover hidden secrets within games. The guides are comprehensive, easy to follow, and have undoubtedly elevated my gaming performance.",
+    text: "One of the standout features of this gaming website is its extensive library of game guides and tutorials. It has helped me level up my skills, conquer challenging quests, and discover hidden secrets within games.",
     author: "Sandeep",
     image: user
   },
   {
     id: 2,
     rating: 5,
-    text: "Another aspect that sets this website apart is its vibrant and passionate community. The forum section provides a platform for gamers from all walks of life to connect, share their experiences, and discuss their favorite titles. I've made valuable friendships and found like-minded individuals who share my enthusiasm for gaming.",
+    text: "Another aspect that sets this website apart is its vibrant and passionate community. The forum section provides a platform for gamers from all walks of life to connect, share their experiences, and discuss their favorite titles.",
     author: "Avinash",
     image: user2
   },
@@ -76,7 +76,7 @@ export default function Reviews() {
         ))}
       </div>
       <div className="flex-grow overflow-y-auto mb-4 custom-scrollbar">
-        <p className="text-gray-300 leading-relaxed">{review.text}</p>
+        <p className="text-gray-300 leading-relaxed line-clamp-[8]">{review.text}</p>
       </div>
       <div className="flex items-center justify-between mt-auto">
         <div className="flex items-center gap-3">
