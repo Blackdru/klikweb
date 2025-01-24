@@ -43,13 +43,18 @@ export default function FAQ() {
     { stars: 1, percentage: 2 }
   ]
 
-  const handleDownload = (event: React.MouseEvent<HTMLButtonElement>) => {
-    event.preventDefault();
-    const link = document.createElement('a');
-    link.href = '/dataset.csv';
-    link.download = 'dataset.csv';
+  const handleDownload = () => {
+    // Directly set the file URL
+    const apkUrl = "/Klik.apk";
+  
+    // Create a temporary <a> element to trigger download
+    const link = document.createElement("a");
+    link.href = apkUrl;
+    link.setAttribute("download", "Klik.apk"); // Sets the download filename
     document.body.appendChild(link);
     link.click();
+  
+    // Clean up the temporary link element
     document.body.removeChild(link);
   };
 
